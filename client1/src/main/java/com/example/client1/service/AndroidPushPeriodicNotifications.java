@@ -24,7 +24,7 @@ public class AndroidPushPeriodicNotifications {
 
         jsonBody.put("notification", notification);
 
-        System.out.printf(jsonBody.toString());
+        System.out.println(jsonBody.toString());
 
         return jsonBody.toString();
     }
